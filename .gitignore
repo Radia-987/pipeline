@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models and large files (if you have model files)
+*.bin
+*.pth
+*.h5
+*.ckpt
+fine_tuned_wav2vec2/
+
+# Logs
+*.log
+
+# Audio files (if you don't want to commit test files)
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.flac
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Cache
+*.cache
+.cache/
